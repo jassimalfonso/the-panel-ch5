@@ -1,8 +1,8 @@
 # Quiet Panel
 
-A complete Crestron **CH5** touch-panel interface for a residence, built to show clients what a modern panel can do. It runs on its own: no processor, no program, no joins needed for the demo.
+A complete Crestron **CH5** touch-panel interface for a residence, built to show clients what a modern panel can do. On a real installation it runs on a Crestron processor like any CH5 project. For client meetings it has a **built-in demo mode** that simulates the house, so it can be shown in a browser or on a panel before anything is installed.
 
-**Try it:** open [`SHARE/Residence_Panel_Demo.html`](SHARE/Residence_Panel_Demo.html) in a browser (one self-contained file). Add `?demo=1` to start the guided tour.
+**Try the demo mode:** open [`SHARE/Residence_Panel_Demo.html`](SHARE/Residence_Panel_Demo.html) in a browser (one self-contained file). Add `?demo=1` to start the guided tour.
 
 | | |
 |---|---|
@@ -20,7 +20,7 @@ For years, Crestron touch panels were drawn in **VT Pro-e**: a fixed canvas per 
 | Graphics | Images and built-in objects | Anything the browser can draw: live 3D floor plan, physics, themes |
 | Preview | Needs the tool / a panel | Any browser |
 | Version control | Binary project files | Plain text — git, diffs, history |
-| Demo | Processor + program on a bench | Runs standalone, with its own guided tour |
+| Client demo | Set up a processor and program on a bench | Built-in demo mode: simulates the house, tours itself |
 
 ## What it does
 
@@ -48,7 +48,7 @@ BUILDS/<date>-vX.Y/Residence_Demo.ch5z   →  touch panel, Crestron One, or a br
 To rebuild: `cd BUILDER && npm install && npm run build`, then `python BUILDER/demo_pack.py`.
 
 **Crestron libraries are not included** (Crestron SDK licence). Before packing for a real panel, add them to `SOURCE/js/`:
-`cr-com-lib.js` from [`@crestron/ch5-crcomlib`](https://www.npmjs.com/package/@crestron/ch5-crcomlib) and `webxpanel.js` from [`@crestron/ch5-webxpanel`](https://www.npmjs.com/package/@crestron/ch5-webxpanel). The standalone demo in `SHARE/` doesn't need them.
+`cr-com-lib.js` from [`@crestron/ch5-crcomlib`](https://www.npmjs.com/package/@crestron/ch5-crcomlib) and `webxpanel.js` from [`@crestron/ch5-webxpanel`](https://www.npmjs.com/package/@crestron/ch5-webxpanel). The demo-mode file in `SHARE/` doesn't need them.
 
 ## Notes
 
