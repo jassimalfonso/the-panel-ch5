@@ -1,0 +1,7 @@
+{
+  "name": "residence-demo-builder",
+  "private": true,
+  "description": "Rebuilds SOURCE/ from Main.dc.html. Only needed when the design changes.",
+  "scripts": { "build": "node build_demo.js Main.dc.html ../SOURCE ../SOURCE/js" },
+  "dependencies": { "preact": "10.24.3", "parse5": "7.2.1", "@fontsource/inter": "5.1.0", "@fontsource/shippori-mincho": "5.1.0", "@fontsource/ibm-plex-mono": "5.1.0" }
+}

@@ -1,0 +1,11 @@
+# Crestron SDK libraries: add locally, never commit (see README)
+SOURCE/js/cr-com-lib.js
+SOURCE/js/cr-com-lib.js.LICENSE.txt
+SOURCE/js/webxpanel.js
+SOURCE/js/webxpanel.LICENSE.txt
+SOURCE/js/*.worker.js
+
+# build output and tools
+BUILDS/
+*.ch5z
+BUILDER/node_modules/
