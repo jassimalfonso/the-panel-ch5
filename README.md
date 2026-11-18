@@ -1,4 +1,4 @@
-# Quiet Panel
+# The Panel.
 
 A complete Crestron **CH5** touch-panel interface for a residence, built to show clients what a modern panel can do. On a real installation it runs on a Crestron processor like any CH5 project. For client meetings it has a **built-in demo mode** that simulates the house, so it can be shown in a browser or on a panel before anything is installed.
 
@@ -11,7 +11,7 @@ A complete Crestron **CH5** touch-panel interface for a residence, built to show
 
 ## Why CH5
 
-For years, Crestron touch panels were drawn in **VT Pro-e**: a fixed canvas per panel size, built from the tool's own objects, and a project per screen. **CH5** makes the panel a web app. Crestron Construct still builds CH5 panels from widgets, but underneath it is HTML, CSS and JavaScript — and Quiet Panel is written in that code directly, so anything the browser can do, the panel can do.
+For years, Crestron touch panels were drawn in **VT Pro-e**: a fixed canvas per panel size, built from the tool's own objects, and a project per screen. **CH5** makes the panel a web app. Crestron Construct still builds CH5 panels from widgets, but underneath it is HTML, CSS and JavaScript — and The Panel is written in that code directly, so anything the browser can do, the panel can do.
 
 | | VT Pro-e (the old way) | CH5, hand-built (this project) |
 |---|---|---|
